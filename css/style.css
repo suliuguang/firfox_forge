@@ -1,0 +1,66 @@
+body{background:#ecf0f1}
+/*header-start*/
+
+	/*top_nav-start*/
+	.header{position:relative;width:100%;}
+	.header .top_nav{height:30px;background:#276787;line-height:30px;font-size:10px;}
+	.header .top_nav .logo{width:142px;height:40px;position:absolute;top:0;left:174px;}
+	.header .logo .logo_main{margin-left:35px;cursor:pointer;}
+	.header .logo .logo_fo{background:url("../images/logo_fo.png") no-repeat;width:74px;height:10px;overflow:hidden;margin-left:18px;}
+	.header .logo h1{color:white;font-size:16px;}
+	.header .top_nav a{color:white;}
+	.header .top_nav a:hover{color:red;}
+	.header .top_nav i{margin-top:10px;background:url("../images/icon_1.png");width:10px;height:10px;display:block;}
+	.header .top_nav .left_sidebar i{position:absolute;top:0;left:600px;}
+	.header .logo{position:absolute;top:0;left:220px}
+	.top_nav .left_sidebar{margin-left:336px;width:270px;}
+	.top_nav .right_sidebar{width:320px;margin-left:327px;}
+	.top_nav .right_sidebar .tab_top{}
+	.top_nav .right_sidebar .tab_top span{float:left;text-align:center;}
+	.top_nav .right_sidebar .tab_top .skin_change,.set_up{width:60px;height:30px;}
+	.top_nav .right_sidebar .tab_top .access_record{width:80px;color:#fff;}
+	.top_nav .right_sidebar .i_1{position:absolute;top:0;right:330px;}
+	.top_nav .right_sidebar .i_2{position:absolute;top:0;right:270px;}
+	.top_nav .right_sidebar .i_3{position:absolute;top:0;right:190px;}
+	/*top_nav-end*/
+
+	/*date_content-start*/
+	.date_content{width:350px;height:530px;position:absolute;top:30px;left:336px;border:1px solid #ccc;display:none;background: #fff;padding:0 15px 0 5px;color:#333;z-index:2px;}
+	.date_content .head{height:42px;border-bottom:dashed 1px #ccc;line-height:42px;}
+	.date_content .weather{border-bottom:dashed 1px #ccc;height:156px;}
+	.date_content .weather div{width:32%;height:116px;text-align:center;}
+	.date_content .weather div a{display:block;margin-bottom:0;width:100%;height:85px;color:red;padding:0;margin:0;}
+	.date_content .fortune{position:relative;height:280px;}
+	.fortune .fortune_title{height:48px;line-height:48px;background:url("../images/fortune_tit.png") left center no-repeat;text-indent:26px;}
+	.fortune_title span{font-weight:bold;color:#e54724;}
+	.fortune_title .select_icon{background:url("../images/select_icon.png");position:absolute;top:14px;left:190px;display:block;width:18px;height:18px;}
+	.fortune_title .select_tit{position:absolute;top:0;left:185px;}
+	.fortune_title select{opacity:0;position:absolute;top:14px;left:190px;z-index:1px;cursor:pointer;width:100px;}
+	.fortune_title .select_down{position:absolute;top:14px;left:256px;background:url("../images/select_down.png");display:inline-block;width:18px;height:18px;}
+	.fortune_content{line-height:26px;}
+	.fortune_content .cont_title{text-indent:26px;width:100%;height:30px;line-height:30px;font-weight:bold;color:#e54724;background:url("../images/ft_cont_icon.png")no-repeat left center;}
+	.fortune_content .cont_explain{margin-bottom:16px;width:326px;padding:0 10px;}
+	.fortune_start_ship .cont_title{border-top:dashed 1px #ccc;}
+	.fortune_start_ship .cont_explain p{width:150px;height:30px;float:left;line-height:30px;}
+	.date_content .footer{float:right;height:30px;line-height:30px;}
+	.date_content .footer a{color:red;text-decoration:underline;}
+	.date_content .footer a:hover{color:orange;text-decoration:none;}
+	/*data_content-end*/
+
+	/*top_nav_cont-start*/
+		.top_nav_cont{position:relative;width:1000px;padding:15px 10px;background-color:#fff;margin:auto;z-index:0;}
+		.top_nav_cont .wp_cont{width:1000px;height:200px;background:#fff;}
+		.wp_cont .skin_select{position:absolute;top:40px;left:-500px;width:2000px;overflow:hidden}
+		.wp_cont .skin_select ul{width:934px;height:120px;margin:auto;}
+		.skin_select ul li{width:140px;height:126px;float:left;}
+		.skin_select ul li+li{margin-left:18px;}
+		.skin_select ul li .skin_image{height:96px;width:140px;border:1px solid orange;transition:all 0.35s ease-in;-webkit-transition:all 0.35s ease-in;}/*此处用到css3属性,注意兼容*/
+		.skin_select ul li:hover .skin_image{transform:scale(1.2);-webkit-transform:scale(1.2);}
+		.skin_select ul li .skin_radio{width:100px;height:18px;margin:auto;margin-top:6px;}
+		.right_nav_action{width:160px;height:30px;margin:auto;margin-bottom:0;}
+		.right_nav_action .btn{width:70px;height:30px;color:#fff;display:block;text-align:center;cursor:pointer;box-shadow:-6px 4px 7px #ccc;}
+		.right_nav_action .btn_confirm{background:#e54724;} 
+		.right_nav_action .btn_cancel{background:#b6b6be;}
+	/*top_nav_cont_start*/
+
+/*header-end*/

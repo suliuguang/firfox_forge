@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>仿火狐首页</title>
+  <link href="css/base.css" rel="stylesheet" type="text/css"/>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+ </head>
+ <body>
+	<div class="header_wrapper">
+		<div class="header">
+			<div class="top_nav">
+				<div class="logo">
+					<img  class="logo_main" src="images/logo_fb.png" title="火狐主页"/>
+					<h1 class="right">火狐主页</h1><!--因为切图问题,影响换肤的top_nav的背景，待改进-->
+					<p class="logo_fo"></p>
+				</div>
+				<div class="left_sidebar left">
+					<a class="date_place" href="#">5月3日 周二&nbsp;北京&nbsp;晴&nbsp;27℃~10℃&nbsp;星座运势</a><i></i>
+				</div>
+				<div class="right_sidebar left">
+					<div class="feed left">
+						<span class="feed_back"><a href="#">意见反馈</a></span>
+					</div>
+					<div class="tab_top">
+						<span class="skin_change" value="0"><a href="#">换肤</a><i class="i_1"></i></span>
+						<span class="set_up" value="0"><a href="#">设置</a><i class="i_2"></i></span>
+						<span class="access_record" value="0'><a href="#">访问记录</a><i class="i_3"></i></span>
+					<div class="left">
+						<span class="login"><a href="#">登录</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="date_content">
+				<div class="head">
+					<span>我在&nbsp;<strong class="f14px">北京</strong>&nbsp;<a class="space_switch" href="#">[切换]</a></span><!--切换下方会出现省市区三级联动，且自身消失-->
+					<span class="Lunar_time right"><a href="javascript:void">农历三月十七</a></span>
+				</div>
+				<div class="weather">
+					<div class="weather_today left">
+						<p>今天</p>
+						<a href="javascript:void"><img src="images/weather_cloudy.png" alt="点击查看详情"><p>多云</p><span>28℃~15℃</span></a>
+					</div>
+					<div class="weather_tomorrow left">
+						<p>明天</p>
+						<a href="javascript:void"><img src="images/weather_cloudy.png" alt=""/><p>多云</p><span>27℃~16℃</span></a>
+					</div>
+					<div class="weather_af_tomorrow left">
+						<p>后天</p>
+						<a href="javascript:void"><img src="images/weather_sunny.png" alt=""/><p>晴</p><span>25℃~12℃</span></a>
+					</div>
+				</div>
+				<div class="fortune">
+					<div class="fortune_title">
+						<span class="fortune_index f14px">整体运势指数</span>&nbsp;&nbsp;我的星座
+						<div class="select_constellation">
+							<i class="select_icon"></i>
+							<span class="select_tit f14px">白羊座</span>
+							<select>
+								<option value="">白羊座</option>
+								<option value="">金牛座</option>
+								<option value="">双子座</option>
+								<option value="">巨蟹座</option>
+								<option value="">处女座</option>
+							</select>
+							<span class="select_down"></span><!--存在bug,无法在这上点击;且存在三级联动（图片，文字，运势解析内容）-->
+						</div>
+					</div>
+					<div class="fortune_content fortune_analysis">
+						<div class="cont_title">
+							<h3>今日运势解析</h3>
+						</div>
+						<div class="cont_explain">
+							<p>工作热情高涨，效率颇高，没有一丝累的感觉。审美眼光不错，买份小礼物送给另一半可令对方感动，对感情有促进作用。财运不太稳定，应谋定而后动，不可急于求成。</p>
+						</div>
+					</div>
+					<div class="fortune_content fortune_start_ship">
+						<div class="cont_title">
+							<h3>今日开运</h3>
+						</div>
+						<div class="cont_explain">
+							<p>幸运数字:4</p>
+							<p>贵人星座:双子座</p>
+							<p>吉时吉色:am:8:00-10:00</p>
+							<p>幸运颜色:葡萄紫</p>
+							<p>开运方位:正北方向</p>
+						</div>
+					</div>
+					<div class="footer cl">
+						<span>来源:<span>
+						<a href="javascript:void">科技紫微星座网</a>
+					</div>
+				</div>
+			</div>
+			<div id="top_nav_cont" class="top_nav_cont cl" style="display:block">
+				<div class="wp_cont">
+					<div class="skin_select">
+						<ul>
+							<li class="skin_li">
+								<div class="skin_image">
+									<img src="images/skin_1.png" alt="">
+								</div>
+								<div class="skin_radio">
+									<input type="radio" name="skin_ra"/>
+									<label>默认皮肤</label>
+								</div>
+							</li>
+							<li class="skin_li">
+								<div class="skin_image">
+									<img src="images/skin_2.png" alt="">
+								</div>
+								<div class="skin_radio">
+									<input type="radio" name="skin_ra"/>
+									<label>喜迎新春</label>
+								</div>
+							</li>
+							<li class="skin_li">
+								<div class="skin_image">
+									<img src="images/skin_3.png" alt="">
+								</div>
+								<div class="skin_radio">
+									<input type="radio" name="skin_ra"/>
+									<label>妇女节快乐</label>
+								</div>
+							</li>
+							<li class="skin_li">
+								<div class="skin_image">
+									<img src="images/skin_4.png" alt="">
+								</div>
+								<div class="skin_radio">
+									<input type="radio" name="skin_ra"/>
+									<label>火狐萌萌哒</label>
+								</div>
+							</li>
+							<li class="skin_li">
+								<div class="skin_image">
+									<img src="images/skin_5.png" alt="">
+								</div>
+								<div class="skin_radio">
+									<input type="radio" name="skin_ra"/>
+									<label>春花秋色</label>
+								</div>
+							</li>
+							<li class="skin_li">
+								<div class="skin_image">
+									<img src="images/skin_6.png" alt="">
+								</div>
+								<div class="skin_radio">
+									<input type="radio" name="skin_ra"/>
+									<label>漫游云端</label>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="set_cont"></div>
+					<div class="record_cont"></div>
+				</div>
+				<div class="right_nav_action">
+					<a class="btn btn_confirm left">确认</a>
+					<a class="btn btn_cancel right">取消</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="container"></div>
+	<div id="footer"></div>
+	<script src="js/jquery-1.11.1/jquery.js"></script>
+ 	<script src="js/jquery.js"></script>
+ </body>
+</html>
